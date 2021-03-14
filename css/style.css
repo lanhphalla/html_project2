@@ -1,0 +1,128 @@
+/* menu -------------------------------------------------------------*/
+.icon a:hover{
+    border-radius: 10px;
+    background-color: blue;
+}
+.icon{
+    position: fixed;
+    top: 1%;
+}
+.icon a{
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 10px;
+    padding: 10px;
+    color: rgb(255, 0, 242);
+}
+/* home------------------------------------------------------------- */
+h1{
+    color: blue;
+    font-size: 70px;
+}
+.text p{
+    font-size: 20px;
+    font-style: oblique;
+}
+h1, .text p, .form , .address, h3, .foodter, .fafa{
+    text-align: center;
+}
+.above{
+    display: flex;
+}
+.under{
+    display: flex;
+}
+.under, .above{
+    margin: 20px
+}
+.tex{
+    margin: 100px;
+}
+.row :hover{
+    background-color: rgb(230, 236, 243);
+}
+.row{
+    padding: 100px;
+    background-color: rgb(7, 161, 161);
+}
+/* form --------------------------------------------------------------*/
+h2{
+    text-align: center;
+    border-style: groove;
+}
+.form{
+    display: flex;
+}
+.form_left{
+    margin-left: 9%;
+}
+.form_right{
+    margin-left: 24%;
+}
+input[type=text], input[type=email], input[type=number]{
+    height: 30px;
+    width: 230%;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+/* textarea-------- */
+.textarea{
+    text-align: center;
+}
+textarea{
+    height:20vh;
+    width: 80%;
+    margin: 10px;
+}
+input[type=submit]{
+    width: 10%;
+    height: 6vh;
+    background-color: rgb(111, 0, 255);
+}
+.contect{
+    background-color: darkcyan;
+}
+/* map-------------------------------------------------------------------- */
+iframe{
+    width: 100%;
+}
+.address{
+    background-color: rgb(9, 139, 148);
+}
+/* foodter----------------------------------------------------------------- */
+.foodter{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 1px;
+    background-color: rgb(8, 132, 141);
+    color: white;
+    height: 60vh;
+}
+.foodter, .address, iframe{
+    margin-top: 10px;
+}
+.fafa{
+    margin: 10px;
+}
+.learn, .follow, .about_me{
+    display: grid;
+}
+/* Responsive --------------------------------------------------- */
+@media (max-width: 500px){
+    input[type=submit]{
+        width: 100px;
+    }
+    input[type=text]{
+        width: 100px
+    }
+    input[type=email]{
+        width: 100px
+    }
+    input[type=number]{
+        width: 100px
+    }
+    .form_left{
+        margin-left: 33px;
+    }
+}
